@@ -182,6 +182,7 @@ type Env struct {
 	GuildStore            store.GuildStore
 	GuildState            *guildstate.Provider
 	CustomCommandStore    store.CustomCommandStore
+	FormStore             store.FormStore
 	ImageStore            store.ImageStore
 	EmbedLinkStore        store.EmbedLinkStore
 	CustomBotManager      *custom_bot.CustomBotManager
